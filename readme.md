@@ -1,8 +1,61 @@
 # Interviewer Platform
 
-![Interviewer Platform Banner](https://via.placeholder.com/1200x400?text=Interviewer+Platform)
+> A comprehensive, AI-powered interview preparation and hosting platform.
 
-## Overview
+---
+
+## 🚀 How to Run the Project
+
+### 📦 Backend Setup
+
+```bash
+cd backend
+npm install
+npm run dev
+```
+
+### 💻 Frontend Apps Setup  
+Repeat the following for each frontend folder:
+
+- `group-discussion-video-call`
+- `interview-video-call`
+- `interviewer-panel`
+- `landing-page`
+- `student-panel`
+
+```bash
+cd <folder-name>
+npm install
+npm run dev
+```
+
+### 🧠 Vision Model (Cheating Detection)
+
+```bash
+cd vision-model
+uv pip install -r requirements.txt  # Or setup using uv
+uvicorn app:app --reload
+```
+
+---
+
+## 🧩 Project Structure
+
+```
+interviewer-platform/
+├── backend/
+├── group-discussion-video-call/
+├── interview-video-call/
+├── interviewer-panel/
+├── landing-page/
+├── student-panel/
+└── vision-model/
+```
+
+---
+
+## 🧠 Overview
+
 Interviewer is an innovative platform designed to revolutionize interview preparation through cutting-edge technology. Our comprehensive solution offers:
 
 - One-on-one mock interviews
@@ -14,90 +67,82 @@ Interviewer is an innovative platform designed to revolutionize interview prepar
 **Interview Portal**: [brilliant-tanuki-100e0b.netlify.app](https://brilliant-tanuki-100e0b.netlify.app/)  
 **Group Discussions Portal**: [group.glitchastra.com](https://group.glitchastra.com)
 
-## Key Features
+---
 
-### Core Platform Features
-✅ **Secure Authentication System**  
-✅ **Live Video Calling** (1:1 and group)  
-✅ **Interviewer Booking System**  
-✅ **Group Discussion Management**  
-✅ **Production-Ready Deployment**
+## 🔑 Key Features
 
-### Innovative MVP Features
-🔹 **Blockchain Integration** (Escrow payments)  
-🔹 **AI Interview Assistant**  
-🔹 **CodeSandbox Integration** for coding interviews  
-🔹 **Live Problem Assignment**  
-🔹 **Candidate Screen Sharing**  
-🔹 **Post-Call Review System**
+### Core Features
 
-### Future Roadmap
+✅ Secure Authentication System  
+✅ Live Video Calling (1:1 and group)  
+✅ Interviewer Booking System  
+✅ Group Discussion Management  
+✅ Production-Ready Deployment  
+
+### MVP Highlights
+
+🔹 Blockchain Escrow Payments  
+🔹 AI Interview Assistant  
+🔹 CodeSandbox for Coding Interviews  
+🔹 Live Problem Assignment  
+🔹 Screen Sharing  
+🔹 Post-Call Review System  
+
+### 🚧 Roadmap
+
 🚀 Voice-to-Voice AI Interviewer  
-🚀 Advanced Analytics Dashboard  
-🚀 Real-time Collaborative Code Editor  
-🚀 Soft Skills Evaluation System  
-🚀 Job Hunting Guidance Bot
+🚀 Analytics Dashboard  
+🚀 Collaborative Code Editor  
+🚀 Soft Skills Evaluator  
+🚀 Job Hunt Guidance Bot  
 
-## Technology Stack
+---
+
+## 🛠️ Technology Stack
 
 | Component               | Technology Used                  |
 |-------------------------|----------------------------------|
-| **Frontend**            | Next.js                          |
-| **Backend**             | Node.js/Express with MongoDB     |
-| **Video Infrastructure**| WebRTC                           |
-| **AI Components**       | Llama 4.0, Amazon Speech Services|
-| **Development**         | CodeSandbox                      |
+| Frontend                | Next.js                          |
+| Backend                 | Node.js/Express with MongoDB     |
+| Video Infrastructure    | WebRTC                           |
+| AI Components           | Llama 4.0, Amazon Speech Services|
+| Development Environment | CodeSandbox                      |
 
-## Getting Started
+---
 
-### Prerequisites
-- Node.js v14+
-- MongoDB v4.4+
-- Modern browser (Chrome/Firefox recommended)
+## 📚 Platform Usage
 
-### Installation
+### For Candidates
+
+- Book mock interviews with experts  
+- Join peer group discussions  
+- Solve real-time coding challenges  
+- Receive structured feedback  
+
+### For Interviewers
+
+- Set availability slots  
+- Host live coding sessions  
+- Assign and evaluate problems  
+- Provide feedback using built-in tools  
+
+---
+
+## 📦 Production Deployment
+
 ```bash
-git clone https://github.com/your-repo/interviewer-platform.git
-cd interviewer-platform
-npm install
-```
-
-
-```bash
-npm run dev
-```
-### Platform Usage Guide
-For Candidates
-Book Mock Interviews with experienced professionals
-
-Join Group Discussions to practice with peers
-
-Solve Coding Challenges in real-time
-
-Receive Feedback through our rating system
-
-For Interviewers
-Create Availability Slots for interviews
-
-Host Coding Sessions using our integrated IDE
-
-Assign Problems during live interviews
-
-Evaluate Candidates with structured feedback
-
-Deployment
-The platform is currently deployed and accessible at:
-
-Main Application: brilliant-tanuki-100e0b.netlify.app
-
-Group Features: group.glitchastra.com
-
-For production deployment:
-
-bash
-Copy
 npm run build
 npm start
-Contributing
-We welcome contributions! Please fork the repository and submit pull requests.
+```
 
+---
+
+## 🤝 Contributing
+
+We welcome contributions! Fork the repo, make changes, and submit a pull request.
+
+---
+
+## 🖼️ Banner
+
+![Interviewer Platform Banner](https://via.placeholder.com/1200x400?text=Interviewer+Platform)
