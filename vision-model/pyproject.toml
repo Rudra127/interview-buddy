@@ -1,0 +1,14 @@
+[project]
+name = "interview-buddy"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi>=0.115.12",
+    "mediapipe>=0.10.21",
+    "python-multipart>=0.0.20",
+    "requests>=2.32.3",
+    "ultralytics>=8.3.146",
+    "uvicorn>=0.34.2",
+]
